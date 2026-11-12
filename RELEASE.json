@@ -1,0 +1,65 @@
+{
+  "plugin_files": {
+    "plugin/.codex-plugin/plugin.json": {
+      "sha256": "64128d892ee3cb7803a19ee98fdd981450760aaaf0be3acdd77eb5b29c0ef641",
+      "size_bytes": 318
+    },
+    "plugin/.mcp.json": {
+      "sha256": "7dadd9c4f77daebe4a3ae049abb31b45f2281a7d8e8a7501411d341b74df5614",
+      "size_bytes": 246
+    },
+    "plugin/bin/launch-local-mcp.zsh": {
+      "sha256": "2725231b3b0b9f4f524ba08a480fafdee4b937573dc12c9ef97652b73b7e288d",
+      "size_bytes": 774
+    },
+    "plugin/mcp.json": {
+      "sha256": "9df0559d5d8622ac5efdc258060263b718527c9994eaa8fd18a1c42fb5e96436",
+      "size_bytes": 318
+    },
+    "plugin/plugin.json": {
+      "sha256": "c27ea0f22930df77064c8600bef4293cb66f643af0c8d123db1ffe6547bfcbee",
+      "size_bytes": 1244
+    },
+    "plugin/runtime/darwin-arm64/fuyao-comments-review-local": {
+      "sha256": "9eeedafa1f04227870a45a90b915050f541bf60727a9bd4b9e2349f196aa0720",
+      "size_bytes": 32692464
+    },
+    "plugin/runtime/darwin-x86_64/fuyao-comments-review-local": {
+      "sha256": "61bb4e3279044c13b699a736fc95efa8a19a6b0dcb20ae32da7b099328596b1a",
+      "size_bytes": 33547312
+    },
+    "plugin/runtime/runtime-manifest.json": {
+      "sha256": "9ea6db15cdd0ea8ecd86a73e8e56e019b79589d73deda43954fb2ca69bef0cf5",
+      "size_bytes": 452
+    },
+    "plugin/skills/fuyao-comments-review-setup/SKILL.md": {
+      "sha256": "7180e793d570e9a7dce90b81ab34dbd77e91f2eb4f514322fc07dee910d26d03",
+      "size_bytes": 1700
+    },
+    "plugin/skills/fuyao-comments-review/SKILL.md": {
+      "sha256": "9c78905194327ebd9ed5c8d46246b0cbd972ca89993fc4c77cc0962d7cb6087a",
+      "size_bytes": 6007
+    },
+    "plugin/skills/fuyao-comments-review/agents/openai.yaml": {
+      "sha256": "3e0cd0c013ad0fe13f8271e0833ad288fbb6b8a63bb0c5c7383751759375e9e9",
+      "size_bytes": 497
+    },
+    "plugin/skills/fuyao-comments-review/references/coverage.md": {
+      "sha256": "ce10b2780a775457ce43539473739fbb54a5d198a0991630968ab30ba8c2712b",
+      "size_bytes": 1864
+    },
+    "plugin/skills/fuyao-comments-review/references/report-contract.md": {
+      "sha256": "d3fd44b3a78bcd3064e725a964d562ced04df9549fa34507043b1399ff40f572",
+      "size_bytes": 2836
+    },
+    "plugin/skills/fuyao-comments-review/references/security.md": {
+      "sha256": "122e3ab5b887670462b6d4008bec64a26548738834b3027f9fdd3f37ae8b2e51",
+      "size_bytes": 1271
+    }
+  },
+  "plugin_version": "0.1.0",
+  "product": "Fuyao Comments Review",
+  "release_ref": "v0.1.0-beta.1",
+  "repository": "https://github.com/jackinexus/fuyao-comments-review-marketplace",
+  "schema_version": 1
+}

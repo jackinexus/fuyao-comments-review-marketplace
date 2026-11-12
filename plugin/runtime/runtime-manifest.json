@@ -1,0 +1,15 @@
+{
+  "runtimes": {
+    "darwin-arm64": {
+      "path": "runtime/darwin-arm64/fuyao-comments-review-local",
+      "sha256": "9eeedafa1f04227870a45a90b915050f541bf60727a9bd4b9e2349f196aa0720",
+      "size": 32692464
+    },
+    "darwin-x86_64": {
+      "path": "runtime/darwin-x86_64/fuyao-comments-review-local",
+      "sha256": "61bb4e3279044c13b699a736fc95efa8a19a6b0dcb20ae32da7b099328596b1a",
+      "size": 33547312
+    }
+  },
+  "schema_version": 1
+}

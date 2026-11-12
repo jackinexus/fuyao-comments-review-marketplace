@@ -1,0 +1,12 @@
+interface:
+  display_name: "Fuyao Comments Review"
+  short_description: "生成高覆盖率的 Instagram 与 TikTok 评论区复盘 Word"
+  default_prompt: "Use $fuyao-comments-review 分析这条 Instagram 或 TikTok 视频的评论区，并生成复盘 Word：<视频链接>"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "fuyao_comments_review"
+      description: "本地评论采集、覆盖核验与审核状态 MCP"
+      transport: "stdio"
+policy:
+  allow_implicit_invocation: true

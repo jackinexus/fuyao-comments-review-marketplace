@@ -1,0 +1,20 @@
+{
+  "name": "fuyao-comments-review",
+  "interface": {
+    "displayName": "Fuyao Comments Review"
+  },
+  "plugins": [
+    {
+      "name": "fuyao-comments-review",
+      "source": {
+        "source": "local",
+        "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

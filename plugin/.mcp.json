@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "fuyao_comments_review": {
+      "type": "stdio",
+      "command": "/bin/zsh",
+      "args": [
+        "${PLUGIN_ROOT}/bin/launch-local-mcp.zsh",
+        "${PLUGIN_ROOT}"
+      ],
+      "cwd": "${PLUGIN_ROOT}"
+    }
+  }
+}

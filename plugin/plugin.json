@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "fuyao-comments-review",
+  "version": "0.1.0",
+  "description": "Generate auditable Instagram and TikTok comment-section review reports.",
+  "author": {
+    "name": "Fuyao"
+  },
+  "license": "Proprietary",
+  "keywords": [
+    "comments",
+    "instagram",
+    "tiktok",
+    "review"
+  ],
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "onboardingSkill": "./skills/fuyao-comments-review-setup/SKILL.md",
+      "interface": {
+        "displayName": "Fuyao Comments Review",
+        "shortDescription": "生成高覆盖率的 Instagram 与 TikTok 评论区复盘 Word",
+        "longDescription": "在用户电脑上运行本地 MCP，经 Fuyao 受控密钥代理采集评论，并在用户自己的 Codex 会话中完成逐条语义审核和 Word 报告；TikHub Key 不下发到用户设备。",
+        "developerName": "Fuyao",
+        "category": "Productivity",
+        "capabilities": [
+          "Read"
+        ],
+        "defaultPrompt": [
+          "请分析这条 Instagram Reel 或 TikTok 视频的评论区，并生成复盘 Word：<视频链接>"
+        ],
+        "brandColor": "#1F5A66"
+      }
+    }
+  }
+}
