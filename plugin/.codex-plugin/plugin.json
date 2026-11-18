@@ -1,6 +1,6 @@
 {
   "name": "fuyao-comments-review",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate high-coverage Instagram and TikTok comment review reports in Codex.",
   "requires_local_executor": true,
   "skills": "./skills/",

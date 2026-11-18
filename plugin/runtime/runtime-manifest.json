@@ -1,15 +1,20 @@
 {
+  "runtime_contract": {
+    "rule_pack_digest": "81f1670879e026f488e8dcc829b957880e55daf28df9ce72cd9f53ffb0169cf9",
+    "rule_pack_id": "duet_comment_interest",
+    "rule_pack_version": "1.4.0"
+  },
   "runtimes": {
     "darwin-arm64": {
       "path": "runtime/darwin-arm64/fuyao-comments-review-local",
-      "sha256": "9eeedafa1f04227870a45a90b915050f541bf60727a9bd4b9e2349f196aa0720",
-      "size": 32692464
+      "sha256": "369978915b8e3a865b8e20e3203e4062286d2a6efbf9e0bd88f806fcbfa18d6d",
+      "size": 32715760
     },
     "darwin-x86_64": {
       "path": "runtime/darwin-x86_64/fuyao-comments-review-local",
-      "sha256": "61bb4e3279044c13b699a736fc95efa8a19a6b0dcb20ae32da7b099328596b1a",
-      "size": 33547312
+      "sha256": "8460ff5dc6c0d9f9e87c7a240625f7d0e3f6e3e71fe384df0c06f47edc23afca",
+      "size": 33571088
     }
   },
-  "schema_version": 1
+  "schema_version": 2
 }

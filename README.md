@@ -17,7 +17,7 @@ Marketplace 地址：
 https://github.com/jackinexus/fuyao-comments-review-marketplace
 
 固定版本：
-v0.1.0-beta.1
+v0.1.0-beta.2
 
 请添加这个 Marketplace、安装其中的 Fuyao Comments Review Plugin，并帮我完成 Plugin 内的 Fuyao 登录和初始化。不要要求我提供 TikHub API Key、OAuth Token、Cookie 或密码。
 ```
@@ -25,7 +25,7 @@ v0.1.0-beta.1
 Codex CLI 对应命令：
 
 ```zsh
-codex plugin marketplace add https://github.com/jackinexus/fuyao-comments-review-marketplace.git --ref v0.1.0-beta.1
+codex plugin marketplace add https://github.com/jackinexus/fuyao-comments-review-marketplace.git --ref v0.1.0-beta.2
 ```
 
 添加后，重启 Codex/ChatGPT 桌面应用，在 Plugins 中选择 `Fuyao Comments Review` 并安装。第一次使用时按提示在浏览器完成 Fuyao 登录；登录成功不等于已经获得额度，未开通时请联系产品所有者。
