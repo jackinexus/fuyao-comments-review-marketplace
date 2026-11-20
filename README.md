@@ -1,6 +1,6 @@
 # Fuyao Comments Review
 
-这是 **Fuyao Comments Review** 的公开安装仓库。任何人都可以下载 Plugin 安装包；完整开发源码、云端代理源码和内部测试仍保存在私有开发仓库中。
+**Fuyao Comments Review** 是 Fuyao MKT 系列的第二款应用，由 **Jack Wu** 开发。你可以在 Codex 中复盘 Instagram Reel 和 TikTok 视频的评论区，生成包含评论覆盖率和分析结果的 Word 报告。
 
 访问和安装这个公开仓库不需要 GitHub 账号。首次采集评论前，请完成 Fuyao 登录，并由产品管理员开通使用权限和额度。
 
@@ -37,8 +37,6 @@ codex plugin marketplace add https://github.com/jackinexus/fuyao-comments-review
 <视频链接>
 ```
 
-插件通过 Fuyao 服务获取评论。去重、覆盖率核对、评论审核和 Word 报告生成在用户的 Codex 环境中完成。
-
 ## 当前支持
 
 - macOS Apple Silicon
@@ -52,7 +50,6 @@ Windows、YouTube、YouTube Shorts 和其他平台不在当前版本范围内。
 
 - 不要在聊天、Issue 或日志中发送 API Key、密码、Cookie、OAuth Token 或其他凭证。
 - 不要把私人身份证、银行卡或其他个人敏感信息写入报告或反馈。
-- 安装包包含可公开查看的 Skill、评论规则和本地运行程序。完整开发源码和服务端凭证均由 Fuyao 管理。
 
 安全问题请按 [SECURITY.md](SECURITY.md) 说明私下报告。
 
