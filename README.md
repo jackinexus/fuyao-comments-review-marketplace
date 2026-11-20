@@ -4,7 +4,7 @@
 
 访问和安装这个公开仓库不需要 GitHub 账号。按提示选择获邀 Google 账号完成 Fuyao 登录。若账号尚未开通，请联系管理员开通使用权限和额度。
 
-正式安装版本为 `v0.1.3`。也可以从 [Fuyao Comments Review 官网](https://www.fuyaomktmate.top/comments-review) 复制同一段安装提示词。
+正式安装版本为 `v0.1.4`。也可以从 [Fuyao Comments Review 官网](https://www.fuyaomktmate.top/comments-review) 复制同一段安装提示词。
 
 ## 让 Codex 帮你安装
 
@@ -13,13 +13,13 @@
 ```text
 请添加 Fuyao Comments Review 官方 Marketplace：
 https://github.com/jackinexus/fuyao-comments-review-marketplace.git
-固定使用 ref v0.1.3，安装其中的 Fuyao Comments Review，并帮我完成登录和初始化。
+固定使用 ref v0.1.4，安装其中的 Fuyao Comments Review，并帮我完成登录和初始化。
 ```
 
 Codex CLI 对应命令：
 
 ```zsh
-codex plugin marketplace add https://github.com/jackinexus/fuyao-comments-review-marketplace.git --ref v0.1.3
+codex plugin marketplace add https://github.com/jackinexus/fuyao-comments-review-marketplace.git --ref v0.1.4
 ```
 
 添加后，重启 Codex/ChatGPT 桌面应用，在 Plugins 中选择 `Fuyao Comments Review` 并安装。第一次使用时按提示在浏览器完成 Fuyao 登录；登录成功不等于已经获得额度，未开通时请联系产品所有者。

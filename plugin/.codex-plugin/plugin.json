@@ -1,6 +1,6 @@
 {
   "name": "fuyao-comments-review",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Generate auditable Instagram and TikTok comment-section review reports.",
   "author": {
     "name": "Jack Wu"

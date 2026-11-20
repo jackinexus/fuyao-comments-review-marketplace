@@ -1,7 +1,7 @@
 {
   "plugin_files": {
     "plugin/.codex-plugin/plugin.json": {
-      "sha256": "2c174827ef1b8970d0da4efb4a5b4da89abcfe7c99807a86a17ac99597d541d2",
+      "sha256": "f5a2307313826398e0f8427df4c0a0aa2c33b8d081122cd415d51808f4504bc1",
       "size_bytes": 1264
     },
     "plugin/.mcp.json": {
@@ -21,7 +21,7 @@
       "size_bytes": 318
     },
     "plugin/plugin.json": {
-      "sha256": "fd493b265d64622fdbb47df9c4ffc819da502fc2296322c850e94772cd1045ca",
+      "sha256": "4a8f318a6c13a9f4a23b6e034d204a10dc148de8328bd7e5c93523958aca2283",
       "size_bytes": 1516
     },
     "plugin/runtime/darwin-arm64/fuyao-comments-review-local": {
@@ -41,8 +41,8 @@
       "size_bytes": 2127
     },
     "plugin/skills/fuyao-comments-review/SKILL.md": {
-      "sha256": "e6300d8649398add5016c0df9a12b0857bbd639241715b940da45e21f903885a",
-      "size_bytes": 6633
+      "sha256": "921b7f6a4ed9d0dcf1486f86c68afd4311c10abe4f325d0c5761bae53e6ee3eb",
+      "size_bytes": 6614
     },
     "plugin/skills/fuyao-comments-review/agents/openai.yaml": {
       "sha256": "6ef506959b9e3c9f3769c6f4f406145f9202770b2b0eea1500ddee45423ee9b0",
@@ -53,17 +53,17 @@
       "size_bytes": 1864
     },
     "plugin/skills/fuyao-comments-review/references/report-contract.md": {
-      "sha256": "d3fd44b3a78bcd3064e725a964d562ced04df9549fa34507043b1399ff40f572",
-      "size_bytes": 2836
+      "sha256": "438413a672b265b2d80e9f2fb17ad50de9cc43d1ecbac6e409db1a7723b11c82",
+      "size_bytes": 3442
     },
     "plugin/skills/fuyao-comments-review/references/security.md": {
       "sha256": "e53c9d4c633e2458f9d5acffb61016f87e21aea1c45176e2a5dac919a2dd12b6",
       "size_bytes": 866
     }
   },
-  "plugin_version": "0.1.3",
+  "plugin_version": "0.1.4",
   "product": "Fuyao Comments Review",
-  "release_ref": "v0.1.3",
+  "release_ref": "v0.1.4",
   "repository": "https://github.com/jackinexus/fuyao-comments-review-marketplace",
   "schema_version": 1
 }
