@@ -2,9 +2,7 @@
 
 这是 **Fuyao Comments Review** 的公开安装仓库。任何人都可以下载 Plugin 安装包；完整开发源码、云端代理源码和内部测试仍保存在私有开发仓库中。
 
-访问和安装这个公开仓库不需要 GitHub 账号。GitHub 只负责公开分发安装包，不负责决定谁可以使用 Fuyao 的 TikHub 额度。
-
-公开下载不代表获得 TikHub 使用权。评论采集仍需要完成 Fuyao 登录，并由产品所有者在服务端批准身份和额度。TikHub API Key 不在本仓库、Plugin、用户电脑、日志或报告中。
+访问和安装这个公开仓库不需要 GitHub 账号。首次采集评论前，请完成 Fuyao 登录，并由产品管理员开通使用权限和额度。
 
 ## 让 Codex 帮你安装
 
@@ -17,15 +15,15 @@ Marketplace 地址：
 https://github.com/jackinexus/fuyao-comments-review-marketplace
 
 固定版本：
-v0.1.0-beta.2
+v0.1.2-beta.1
 
-请添加这个 Marketplace、安装其中的 Fuyao Comments Review Plugin，并帮我完成 Plugin 内的 Fuyao 登录和初始化。不要要求我提供 TikHub API Key、OAuth Token、Cookie 或密码。
+请添加这个 Marketplace、安装其中的 Fuyao Comments Review Plugin，并帮我完成 Plugin 内的 Fuyao 登录和初始化。请通过浏览器完成登录，无需在聊天中提供凭证。
 ```
 
 Codex CLI 对应命令：
 
 ```zsh
-codex plugin marketplace add https://github.com/jackinexus/fuyao-comments-review-marketplace.git --ref v0.1.0-beta.2
+codex plugin marketplace add https://github.com/jackinexus/fuyao-comments-review-marketplace.git --ref v0.1.2-beta.1
 ```
 
 添加后，重启 Codex/ChatGPT 桌面应用，在 Plugins 中选择 `Fuyao Comments Review` 并安装。第一次使用时按提示在浏览器完成 Fuyao 登录；登录成功不等于已经获得额度，未开通时请联系产品所有者。
@@ -39,7 +37,7 @@ codex plugin marketplace add https://github.com/jackinexus/fuyao-comments-review
 <视频链接>
 ```
 
-评论分页、去重、覆盖计算、SQLite 和 Word 在用户电脑上完成；Cloud Run 只负责身份、白名单、原子配额和 TikHub 密钥代理。
+插件通过 Fuyao 服务获取评论。去重、覆盖率核对、评论审核和 Word 报告生成在用户的 Codex 环境中完成。
 
 ## 当前支持
 
@@ -54,7 +52,7 @@ Windows、YouTube、YouTube Shorts 和其他平台不在当前版本范围内。
 
 - 不要在聊天、Issue 或日志中发送 API Key、密码、Cookie、OAuth Token 或其他凭证。
 - 不要把私人身份证、银行卡或其他个人敏感信息写入报告或反馈。
-- 安装包包含可公开查看的 Skill、评论规则和本地运行程序，但不包含完整开发源码或服务端 TikHub Key。
+- 安装包包含可公开查看的 Skill、评论规则和本地运行程序。完整开发源码和服务端凭证均由 Fuyao 管理。
 
 安全问题请按 [SECURITY.md](SECURITY.md) 说明私下报告。
 

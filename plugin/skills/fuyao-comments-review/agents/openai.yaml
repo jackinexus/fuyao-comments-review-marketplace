@@ -1,6 +1,6 @@
 interface:
   display_name: "Fuyao Comments Review"
-  short_description: "生成高覆盖率的 Instagram 与 TikTok 评论区复盘 Word"
+  short_description: "Instagram 与 TikTok 评论区复盘"
   default_prompt: "Use $fuyao-comments-review 分析这条 Instagram 或 TikTok 视频的评论区，并生成复盘 Word：<视频链接>"
 dependencies:
   tools:
