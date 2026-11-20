@@ -1,6 +1,6 @@
 # Fuyao Comments Review
 
-**Fuyao Comments Review** 是 Fuyao MKT 系列的第二款应用，由 **Jack Wu** 开发。你可以在 Codex 中复盘 Instagram Reel 和 TikTok 视频的评论区，生成包含评论覆盖率和分析结果的 Word 报告。
+**Fuyao Comments Review** 是 Fuyao MKT 系列的第二款应用，由 **Jack Wu** 开发。它在 Codex 中复盘 Instagram Reel 和 TikTok 视频的评论区，结合视频内容和评论语境，判断和统计 Duet 相关评论与有效评论。
 
 访问和安装这个公开仓库不需要 GitHub 账号。首次采集评论前，请完成 Fuyao 登录，并由产品管理员开通使用权限和额度。
 
@@ -9,15 +9,9 @@
 把下面整段文字发送给 Codex：
 
 ```text
-请帮我安装 Fuyao Comments Review。
-
-Marketplace 地址：
-https://github.com/jackinexus/fuyao-comments-review-marketplace
-
-固定版本：
-v0.1.2-beta.1
-
-请添加这个 Marketplace、安装其中的 Fuyao Comments Review Plugin，并帮我完成 Plugin 内的 Fuyao 登录和初始化。请通过浏览器完成登录，无需在聊天中提供凭证。
+请添加 Fuyao Comments Review 官方 Marketplace
+https://github.com/jackinexus/fuyao-comments-review-marketplace.git
+固定使用 ref v0.1.2-beta.1，安装其中的 Fuyao Comments Review，并帮我完成登录和初始化。
 ```
 
 Codex CLI 对应命令：
@@ -33,7 +27,7 @@ codex plugin marketplace add https://github.com/jackinexus/fuyao-comments-review
 安装并获授权后，在新的 Codex 对话中发送一条 Instagram Reel 或 TikTok 视频链接，例如：
 
 ```text
-请使用 Fuyao Comments Review 复盘这个视频的评论区，并生成 Word 报告：
+请用 Fuyao Comments Review 复盘评论区，生成报告。
 <视频链接>
 ```
 
@@ -43,6 +37,7 @@ codex plugin marketplace add https://github.com/jackinexus/fuyao-comments-review
 - macOS Intel
 - Instagram Reel
 - TikTok 视频
+- Word 报告
 
 Windows、YouTube、YouTube Shorts 和其他平台不在当前版本范围内。
 
