@@ -5,7 +5,7 @@ description: Review only the comment section of an Instagram Reel or TikTok vide
 
 # Fuyao Comments Review
 
-Use the local Fuyao Comments MCP to collect comments. Fuyao owns the TikHub account and enforces server-side quotas; the user never receives the TikHub Key. Never ask the user to paste a TikHub API Key, Fuyao access token, Cookie, or browser session into chat, a command argument, a repository file, or a report. If runtime authorization is missing, use the Plugin's `get_fuyao_login_status`, `start_fuyao_login`, and `complete_fuyao_login` tools; the Device Authorization flow stores only a short-lived Fuyao access token outside the Plugin and never stores a refresh token. The Terminal login command is a fault-recovery fallback, not the normal user flow.
+Use the local Fuyao Comments MCP to collect comments. Never ask the user to paste an API key, Fuyao access token, Cookie, or browser session into chat, a command argument, a repository file, or a report. If runtime authorization is missing, use the Plugin's `get_fuyao_login_status`, `start_fuyao_login`, and `complete_fuyao_login` tools; the Device Authorization flow stores only a short-lived Fuyao access token outside the Plugin and never stores a refresh token. The Terminal login command is a fault-recovery fallback, not the normal user flow.
 
 ## Workflow
 

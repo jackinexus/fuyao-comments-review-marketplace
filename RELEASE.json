@@ -37,12 +37,12 @@
       "size_bytes": 651
     },
     "plugin/skills/fuyao-comments-review-setup/SKILL.md": {
-      "sha256": "dd8af7bf61f858e3a85571d201c051ed6de26fbca2cc63b370cfe20db2099f88",
-      "size_bytes": 2182
+      "sha256": "6cbc951e0b7e934970a8481166ab74316fd859629599fce4efb13c4ff2769a6c",
+      "size_bytes": 2127
     },
     "plugin/skills/fuyao-comments-review/SKILL.md": {
-      "sha256": "8225195892da7dcf0479b115b120b8619d76a084749584319d15b20e62c7045a",
-      "size_bytes": 6742
+      "sha256": "e6300d8649398add5016c0df9a12b0857bbd639241715b940da45e21f903885a",
+      "size_bytes": 6633
     },
     "plugin/skills/fuyao-comments-review/agents/openai.yaml": {
       "sha256": "f0529620ebac52ebb8e85c908fa6843b52e07ab4debb627b98c98472fdfbeb63",
@@ -57,13 +57,13 @@
       "size_bytes": 2836
     },
     "plugin/skills/fuyao-comments-review/references/security.md": {
-      "sha256": "122e3ab5b887670462b6d4008bec64a26548738834b3027f9fdd3f37ae8b2e51",
-      "size_bytes": 1271
+      "sha256": "e53c9d4c633e2458f9d5acffb61016f87e21aea1c45176e2a5dac919a2dd12b6",
+      "size_bytes": 866
     }
   },
   "plugin_version": "0.1.2",
   "product": "Fuyao Comments Review",
-  "release_ref": "v0.1.2-beta.1",
+  "release_ref": "v0.1.2",
   "repository": "https://github.com/jackinexus/fuyao-comments-review-marketplace",
   "schema_version": 1
 }

@@ -1,23 +1,25 @@
 # Fuyao Comments Review
 
-**Fuyao Comments Review** 是 Fuyao MKT 系列的第二款应用，由 **Jack Wu** 开发。它在 Codex 中复盘 Instagram Reel 和 TikTok 视频的评论区，结合视频内容和评论语境，判断和统计 Duet 相关评论与有效评论。
+**Fuyao Comments Review** 是 Fuyao MKT 系列的第二款应用，由 **Jack Wu** 开发。它支持 Instagram Reel 与 TikTok 视频，结合视频内容和评论语境，逐条审核，判断和统计 Duet 相关评论和有效评论。
 
-访问和安装这个公开仓库不需要 GitHub 账号。首次采集评论前，请完成 Fuyao 登录，并由产品管理员开通使用权限和额度。
+访问和安装这个公开仓库不需要 GitHub 账号。按提示选择获邀 Google 账号完成 Fuyao 登录。若账号尚未开通，请联系管理员开通使用权限和额度。
+
+正式安装版本为 `v0.1.2`。也可以从 [Fuyao Comments Review 官网](https://www.fuyaomktmate.top/comments-review) 复制同一段安装提示词。
 
 ## 让 Codex 帮你安装
 
 把下面整段文字发送给 Codex：
 
 ```text
-请添加 Fuyao Comments Review 官方 Marketplace
+请添加 Fuyao Comments Review 官方 Marketplace：
 https://github.com/jackinexus/fuyao-comments-review-marketplace.git
-固定使用 ref v0.1.2-beta.1，安装其中的 Fuyao Comments Review，并帮我完成登录和初始化。
+固定使用 ref v0.1.2，安装其中的 Fuyao Comments Review，并帮我完成登录和初始化。
 ```
 
 Codex CLI 对应命令：
 
 ```zsh
-codex plugin marketplace add https://github.com/jackinexus/fuyao-comments-review-marketplace.git --ref v0.1.2-beta.1
+codex plugin marketplace add https://github.com/jackinexus/fuyao-comments-review-marketplace.git --ref v0.1.2
 ```
 
 添加后，重启 Codex/ChatGPT 桌面应用，在 Plugins 中选择 `Fuyao Comments Review` 并安装。第一次使用时按提示在浏览器完成 Fuyao 登录；登录成功不等于已经获得额度，未开通时请联系产品所有者。
@@ -35,11 +37,10 @@ codex plugin marketplace add https://github.com/jackinexus/fuyao-comments-review
 
 - macOS Apple Silicon
 - macOS Intel
-- Instagram Reel
-- TikTok 视频
-- Word 报告
+- Instagram Reel 和 TikTok 视频的主评论与回复
+- 评论覆盖率核对、统一规则审核和 Word 报告
 
-Windows、YouTube、YouTube Shorts 和其他平台不在当前版本范围内。
+当前仅支持 macOS。支持范围为单条视频的评论区复盘。
 
 ## 安全
 
