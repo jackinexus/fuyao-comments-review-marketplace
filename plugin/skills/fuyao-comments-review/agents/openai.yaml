@@ -1,7 +1,7 @@
 interface:
   display_name: "Fuyao Comments Review"
   short_description: "Instagram 与 TikTok 评论区复盘"
-  default_prompt: "Use $fuyao-comments-review 分析这条 Instagram 或 TikTok 视频的评论区，并生成复盘 Word：<视频链接>"
+  default_prompt: "Use $fuyao-comments-review 请复盘这条 Instagram Reel 或 TikTok 视频的评论区，并生成报告。视频链接：<视频链接>"
 dependencies:
   tools:
     - type: "mcp"
